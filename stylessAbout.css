@@ -1,0 +1,110 @@
+@import url('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />');
+
+@import url('');
+
+body{
+    font-family: 'font-awesome', sans-serif;
+    background-image: url("./runaway_black_hole_desktop\ copy.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.navegación{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.TituloPag {
+    padding: 0px 100px;
+    color: white;
+}
+.TituloPag:hover{
+    scale: 1.20;
+    cursor: pointer;
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 110px;
+}
+
+.lista li{
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    padding: 0px 10px;
+    margin: 0px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+.lista li:hover{
+    color: rgb(255, 153, 0);
+    cursor: pointer;
+}
+
+.lista a {
+    text-decoration: none;
+    color: white; 
+}
+
+.lista a:hover {
+    color: rgb(255, 153, 0);
+    cursor: pointer;
+}
+
+.boton {
+    margin-left: 300px;
+}
+
+button{
+    background-color: rgb(255, 255, 255);
+    font-family: 'font-awesome', sans-serif;
+    border-radius: 20px;
+    padding: 10px;
+    width: 120px;
+    color: black;
+    border: 0px;
+    cursor: pointer;
+}
+
+button:hover{
+    scale: 1.05;
+    color: black;
+}
+
+button:active{
+    scale: 0.95
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+    min-height: 100vh;
+}
+.container h1{
+    text-align: center;
+    font-style: bold;
+    font-size: 50px;
+}
+
+.container p{
+    font-style: bold;
+    font-size: 20px;
+    margin-top:  -10px;
+    max-width: 800px;
+}
+  
+  
